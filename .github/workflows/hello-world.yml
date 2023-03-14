@@ -4,5 +4,5 @@ jobs:
         build:
                 runs-on: ubuntu-latet
                 steps:
-                        - uses: actions/checkout@github.com:kristek1104/hexlet-my-first-workflow.git
+                        - uses: actions/checkout@v2
                         - run: ls -la
