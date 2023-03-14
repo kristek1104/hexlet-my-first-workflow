@@ -2,7 +2,7 @@ name: say-hello
 on: push
 jobs:
         build:
-                runs-on: ubuntu-latet
+                runs-on: ubuntu-latest
                 steps:
                         - uses: actions/checkout@v2
                         - run: make say-hello
